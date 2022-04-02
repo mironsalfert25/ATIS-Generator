@@ -4,13 +4,13 @@ import os
 import urllib
 
 ###################################################
-key = "PUT YOUR KEY HERE"
+key = 7a109fd5fcfb4cfb8cca8acab73e5199
 ###################################################
 
 voiceUrl = "http://api.voicerss.org/?key=" + key + "&hl=en-gb&v=Harry&c=MP3&f=8khz_8bit_mono&src="
 
 voiceTemplate = """{airport} INFORMATION {letter}, TIME {validTime} zulu.
-DEPARTURE RUNWAY {depRunway}, ARRIVAL RUNWAY {arrRunway}.
+DEPARTURE RUNWAY 18, ARRIVAL RUNWAY 18.
 TRANSITION LEVEL FLIGHT LEVEL 1 5, SURFACE WIND VARIABLE.
 VISIBILITY 10 KILOMETRES OR MORE.
 TEMPERATURE PLUS 6, DEW POINT PLUS 5.
